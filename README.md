@@ -123,7 +123,7 @@ allure serve build/allure-results
 
 ## <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Selenoid"/></a> Видео прохождения тестов
 <p align="center">
-<img src="images/video/2fd8c874e43e6774e89308a9839dd88f.mp4" alt="video"/></a>
+<img src="images/video/videoTests.gif" alt="video"/></a>
 </p>
 
 [Вернуться к оглавлению ⬆](#Ссылка)
