@@ -9,6 +9,7 @@ import io.qameta.allure.SeverityLevel;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -27,7 +28,7 @@ public class LoginPageTest extends WebTestBase {
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Авторизация на сайте  с корректным логином и паролем")
-    @Tag("ui")
+    @Tags({@Tag("ui"), @Tag("smoke")})
     void successLoginOnLoginPageTest() {
         loginPage.openLoginPage()
                 .verificationOpenLoginPage()
@@ -47,7 +48,7 @@ public class LoginPageTest extends WebTestBase {
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Авторизация на сайте без ввода логина и пароля")
-    @Tag("ui")
+    @Tags ({@Tag("ui"), @Tag("smoke")})
     void unsuccessfulLoginOnLoginPageTest() {
         loginPage.openLoginPage()
                 .verificationOpenLoginPage()
@@ -61,7 +62,7 @@ public class LoginPageTest extends WebTestBase {
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка перехода по ссылке Гугл на странице авторизации")
-    @Tag("ui")
+    @Tags ({@Tag("ui"), @Tag("smoke")})
     void switchToGoogleTest() {
         loginPage.openLoginPage()
                 .clickToGoogleButton()
