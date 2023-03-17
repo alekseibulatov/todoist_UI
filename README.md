@@ -102,12 +102,12 @@ allure serve build/allure-results
 
 ### Dashboard с общими результатами тестирования
 <p align="center">
-<img title="Allure Graphics" src="images/screen/allureTO_dashboard.png">
+<img title="Allure Graphics" src="images/screen/Allure_Testops_4.png">
 </p>
 
 ### Пример отчёта выполнения одного из автотестов
 <p align="center">
-<img title="Allure Graphics" src="images/screen/Allure_Testops_4.png">
+<img title="Allure Graphics" src="images/screen/Allure_Testops_5.png">
 </p>
 
 ## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-600">Atlassian Jira</a>
