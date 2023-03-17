@@ -18,6 +18,7 @@ import org.junit.jupiter.api.Test;
  */
 
 @Feature("LoginPage")
+@DisplayName("Тестирование страницы авторизации")
 public class LoginPageTest extends WebTestBase {
 
     static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class);

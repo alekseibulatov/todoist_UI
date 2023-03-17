@@ -14,6 +14,7 @@ import org.junit.jupiter.api.Test;
  */
 
 @Feature("MainPage")
+@DisplayName("Тестирование главной страницы")
 public class MainPageTests extends WebTestBase {
 
     @Test
