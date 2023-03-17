@@ -31,8 +31,8 @@ public class MainPageTests extends WebTestBase {
     @Test
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("В шапке на главной странице отображаются ссылки 'ВОЗМОЖНОСТИ, ШАБЛОНЫ, ДЛЯ КОМАНД," +
-            "РЕСУРСЫ, ТАРИФЫ, ВОЙТИ, НАЧАТЬ БКСПЛАТНО'")
+    @DisplayName("В шапке на главной странице отображаются ссылки 'Возможности, Шаблоны, Для команд," +
+            "Ресурсы, Тарифы, Войти, Начать бесплатно'")
     @Tags ({@Tag("ui"), @Tag("smoke")})
     void verificationHeaderMainPageTest() {
         mainPage.openPage()

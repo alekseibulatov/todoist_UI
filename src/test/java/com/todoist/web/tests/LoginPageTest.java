@@ -14,8 +14,6 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author alekseibulatov (Aleksei Bulatov)
- *
- *
  */
 
 @Feature("LoginPage")
@@ -48,7 +46,7 @@ public class LoginPageTest extends WebTestBase {
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Авторизация на сайте без ввода логина и пароля")
-    @Tags ({@Tag("ui"), @Tag("smoke")})
+    @Tags({@Tag("ui"), @Tag("smoke")})
     void unsuccessfulLoginOnLoginPageTest() {
         loginPage.openLoginPage()
                 .verificationOpenLoginPage()
@@ -62,7 +60,7 @@ public class LoginPageTest extends WebTestBase {
     @Owner("alekseibulatov")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка перехода по ссылке Гугл на странице авторизации")
-    @Tags ({@Tag("ui"), @Tag("smoke")})
+    @Tags({@Tag("ui"), @Tag("smoke")})
     void switchToGoogleTest() {
         loginPage.openLoginPage()
                 .clickToGoogleButton()
