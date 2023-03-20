@@ -1,12 +1,10 @@
 package com.todoist.web.tests;
 
 
-import com.todoist.config.AuthConfig;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -19,8 +17,6 @@ import org.junit.jupiter.api.Test;
 @Feature("LoginPage")
 @DisplayName("Тестирование страницы авторизации")
 public class LoginPageTest extends WebTestBase {
-
-    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class, System.getProperties());
 
     @Test
     @Owner("alekseibulatov")
