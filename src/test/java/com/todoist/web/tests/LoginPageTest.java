@@ -20,7 +20,7 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Тестирование страницы авторизации")
 public class LoginPageTest extends WebTestBase {
 
-    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class);
+    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class, System.getProperties());
 
     @Test
     @Owner("alekseibulatov")
