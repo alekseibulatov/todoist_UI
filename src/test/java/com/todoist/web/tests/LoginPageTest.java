@@ -26,8 +26,8 @@ public class LoginPageTest extends WebTestBase {
     void successLoginOnLoginPageTest() {
         loginPage.openLoginPage()
                 .verificationOpenLoginPage()
-                .setEmail(authConfig.login())
-                .setPassword(authConfig.password())
+                .setEmail(credentialsConfig.login())
+                .setPassword(credentialsConfig.password())
                 .clickToButtonLogin();
 
 

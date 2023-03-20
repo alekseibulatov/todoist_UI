@@ -2,7 +2,7 @@ package com.todoist.web.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import com.todoist.config.AuthConfig;
+import com.todoist.config.CredentialsConfig;
 import com.todoist.config.WebDriverProvider;
 import com.todoist.helpers.Attach;
 import com.todoist.web.pages.LoginPage;
@@ -18,7 +18,7 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class WebTestBase {
 
-    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class);
+    static CredentialsConfig credentialsConfig = ConfigFactory.create(CredentialsConfig.class);
 
     MainPage mainPage = new MainPage();
     LoginPage loginPage = new LoginPage();

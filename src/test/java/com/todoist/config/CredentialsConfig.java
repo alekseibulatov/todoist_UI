@@ -3,8 +3,8 @@ package com.todoist.config;
 import org.aeonbits.owner.Config;
 
 
-@Config.Sources({"classpath:auth.properties"})
-public interface AuthConfig extends Config {
+@Config.Sources({"classpath:credentials.properties"})
+public interface CredentialsConfig extends Config {
 
     @Key("login")
     String login();
