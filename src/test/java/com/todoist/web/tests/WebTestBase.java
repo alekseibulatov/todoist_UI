@@ -18,7 +18,7 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class WebTestBase {
 
-    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class, System.getProperties());
+    static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class);
 
     MainPage mainPage = new MainPage();
     LoginPage loginPage = new LoginPage();
