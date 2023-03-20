@@ -32,7 +32,7 @@ public class LoginPageTest extends WebTestBase {
                 .verificationOpenLoginPage()
                 .setEmail(authConfig.login())
                 .setPassword(authConfig.password())
-                .ClickToButtonLogin();
+                .clickToButtonLogin();
 
 
         todayPage.closeTab();
@@ -52,7 +52,7 @@ public class LoginPageTest extends WebTestBase {
                 .verificationOpenLoginPage()
                 .setEmail("")
                 .setPassword("")
-                .ClickToButtonLogin()
+                .clickToButtonLogin()
                 .checkWhenEmptyLoginField();
     }
 

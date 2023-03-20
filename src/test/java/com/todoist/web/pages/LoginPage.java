@@ -47,7 +47,7 @@ public class LoginPage {
     }
 
     @Step("Кликаем по кнопке Войти на странице авторизации")
-    public LoginPage ClickToButtonLogin() {
+    public LoginPage clickToButtonLogin() {
         buttonLogin.click();
         sleep(15000);
 
